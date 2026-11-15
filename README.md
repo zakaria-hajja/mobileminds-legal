@@ -1,7 +1,12 @@
 # mobileminds-legal
 
-Privacy policies and terms of use for Mobile Minds apps, published with GitHub Pages at
-`https://zakaria-hajja.github.io/mobileminds-legal/`.
+Privacy policies, terms of use and support pages for apps published by **Hajja Labs**, the trading
+name of Zakaria Hajja, served with GitHub Pages at `https://zakaria-hajja.github.io/mobileminds-legal/`.
+
+The pages name the publisher as "Hajja Labs, the trading name of Zakaria Hajja": Google Play requires
+the privacy policy to name the developer shown in the store listing ("Hajja Labs", a personal account,
+so the data controller is Zakaria Hajja). The repo and URLs keep the old `mobileminds-legal` name
+because published URLs never move.
 
 Plain static HTML: no build step, no scripts, no trackers, no external fonts. `.nojekyll` tells
 GitHub Pages to serve the files as they are.
