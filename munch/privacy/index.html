@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>Munch Privacy Policy</title>
-<meta name="description" content="How the Munch app (Android and iPhone) by Mobile Minds handles your data.">
+<meta name="description" content="How the Munch app (Android and iPhone) by Hajja Labs handles your data.">
 <style>
   :root { --bg: #ffffff; --text: #1d1b20; --muted: #5f5b66; --link: #7a3e00; --rule: #e4e0e8; --box: #fbf4ee; }
   @media (prefers-color-scheme: dark) {
@@ -30,14 +30,14 @@
 </head>
 <body>
 <main>
-<nav class="back"><a href="../../">Mobile Minds legal pages</a> · <a href="../terms/">Munch Terms of Use</a></nav>
+<nav class="back"><a href="../../">Hajja Labs legal pages</a> · <a href="../terms/">Munch Terms of Use</a></nav>
 
 <h1>Munch Privacy Policy</h1>
-<p class="meta">Effective date: 13 November 2026</p>
+<p class="meta">Effective date: 15 November 2026</p>
 
 <p>This policy explains what happens to your data when you use <strong>Munch: Subscription Creatures</strong>
-("Munch"), our subscription tracker for Android and iPhone. Munch is published by <strong>Mobile Minds</strong>
-("we", "us"), which is the data controller for the data described here.</p>
+("Munch"), our subscription tracker for Android and iPhone. Munch is published by <strong>Hajja Labs</strong>,
+the trading name of Zakaria Hajja ("we", "us"), who is the data controller for the data described here.</p>
 
 <div class="summary">
 <h2 style="border-top:0;padding-top:0">The short version</h2>
@@ -71,10 +71,18 @@
 email address, bank details or any login.</p>
 
 <h3>Phone backups</h3>
-<p>Your phone's own backup may include Munch's data so that it comes back after a reinstall or on a new phone:
-Android's backup can store it in your Google account, and an iPhone backup (iCloud or your computer) can
-include it. These backups are run by Google or Apple under your account and their privacy terms, not by
-us. We have no access to them. You can turn backups off in your phone's settings.</p>
+<p>Munch has no cloud backup of its own, but your phone's own backup may include Munch's data. How it comes
+back depends on your phone:</p>
+<ul>
+  <li><strong>Android:</strong> if backup to your Google account is on, Android stores Munch's data in that
+      account. It comes back when you reinstall Munch while signed in to the same Google account, or when you
+      set up a new phone from that backup.</li>
+  <li><strong>iPhone:</strong> an iCloud or computer backup of your iPhone includes Munch's data, but it comes
+      back only when you restore the whole iPhone (or set up a new iPhone) from that backup. Deleting Munch
+      deletes its data; reinstalling it from the App Store starts empty.</li>
+</ul>
+<p>These backups are run by Google or Apple under your account and their privacy terms, not by us. We have
+no access to them. You can turn backups off in your phone's settings.</p>
 
 <h3>Reminders</h3>
 <p>Renewal and trial reminders are scheduled by Munch on your phone as local notifications. No reminder
@@ -139,6 +147,22 @@ the app starts, including before you answer the consent form; it is not used for
 <p>Firebase is provided by Google and processes this data on our behalf. See
 <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
 
+<h3>2.5 Consent form: Google User Messaging Platform</h3>
+<p>To ask for your consent where the law requires it (section 4), Munch uses Google's User Messaging
+Platform (UMP), which is part of Google's ad services. Each time Munch starts, wherever you are, UMP
+contacts Google to check whether you need to see the consent form, and shows it if you do. For this,
+Google receives:</p>
+<ul>
+  <li><strong>approximate location</strong>, worked out from your IP address (not GPS), to tell whether
+      consent rules apply where you are;</li>
+  <li><strong>your interactions with the form</strong>: that it was shown and the choices you made;</li>
+  <li><strong>diagnostics</strong> about how the form loads and performs (for example, load times and errors).</li>
+</ul>
+<p>Your choices are saved on your phone, in the standard format ad services use (the IAB Transparency and
+Consent Framework), so that Munch and the Google Mobile Ads SDK can follow them and the form does not
+appear on every start. We use UMP only to ask for, record and apply your choices. You can change them at
+any time in <strong>Settings &gt; Privacy choices</strong>.</p>
+
 <h2>3. Why we use your data (legal bases)</h2>
 <div class="table-wrap">
 <table>
@@ -153,6 +177,9 @@ the app starts, including before you answer the consent form; it is not used for
             our legitimate interest in counting, in aggregate and never for advertising, how the app is used</td></tr>
     <tr><td>Crash reports (Crashlytics)</td><td>To find and fix bugs</td><td>Our legitimate interest in keeping the
         app working and fixing errors</td></tr>
+    <tr><td>Consent form (UMP)</td><td>To ask for, record and apply your consent where the law requires it</td>
+        <td>Our legal obligation to obtain consent before storing or reading information on your device;
+            our legitimate interest in recording your choice and showing the form only where it is needed</td></tr>
     <tr><td>Remote Config</td><td>To adjust app settings without an update</td><td>Our legitimate interest in running and improving the app</td></tr>
   </tbody>
 </table>
@@ -181,8 +208,9 @@ the app starts, including before you answer the consent form; it is not used for
 
 <h2>5. Who receives data</h2>
 <p>We do not sell your personal data for money, and we do not share your subscriptions with anyone. The
-only recipient of the data in section 2 is Google, as the provider of AdMob (which uses ad data under its
-own terms, as an independent controller for some purposes) and Firebase (which acts as our processor).
+only recipient of the data in section 2 is Google, as the provider of AdMob and its consent form (UMP),
+which use data under Google's own terms, as an independent controller for some purposes, and of Firebase
+(which acts as our processor).
 Google may process data in the United States and other countries, under safeguards such as the EU Standard
 Contractual Clauses and the EU–US Data Privacy Framework.</p>
 <p>We may disclose data if the law requires it. If Munch is transferred to another company, this policy
@@ -195,7 +223,9 @@ continues to apply to data collected under it.</p>
       deleted. Aggregated reports (with no ID) may be kept longer.</li>
   <li><strong>Crashlytics:</strong> crash reports are kept for a limited time (about 90 days) under Google's
       Crashlytics retention rules.</li>
-  <li><strong>AdMob:</strong> Google keeps ad data according to its own retention policies, described in the
+  <li><strong>Your consent choices:</strong> on your phone until you change them, clear the app's data or
+      uninstall the app.</li>
+  <li><strong>AdMob and the consent form:</strong> Google keeps ad data according to its own retention policies, described in the
       Google Privacy Policy.</li>
 </ul>
 
@@ -243,9 +273,9 @@ change reaches the app. For important changes, such as a new type of data leavin
 also tell you in the app or in the store listing. Earlier versions are available on request.</p>
 
 <h2>12. Contact</h2>
-<p>Mobile Minds · <a href="mailto:mblminds@gmail.com">mblminds@gmail.com</a></p>
+<p>Hajja Labs (Zakaria Hajja) · <a href="mailto:mblminds@gmail.com">mblminds@gmail.com</a></p>
 
-<footer>Munch Privacy Policy · effective 13 November 2026 ·
+<footer>Munch Privacy Policy · effective 15 November 2026 ·
 <a href="../terms/">Terms of Use</a></footer>
 </main>
 </body>
