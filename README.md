@@ -12,6 +12,7 @@ GitHub Pages to serve the files as they are.
 index.html               list of apps, linking to each app's pages
 <app>/privacy/index.html  https://zakaria-hajja.github.io/mobileminds-legal/<app>/privacy/
 <app>/terms/index.html    https://zakaria-hajja.github.io/mobileminds-legal/<app>/terms/
+<app>/support/index.html  https://zakaria-hajja.github.io/mobileminds-legal/<app>/support/ (App Store support URL)
 ```
 
 Apps: `munch/` (Munch: Subscription Creatures, `com.mobileminds.munch`).
@@ -22,7 +23,7 @@ listings, so **never move or rename a published page**. Change its content inste
 ## Adding an app
 
 1. Copy `munch/` to `<app>/` (lowercase, kebab-case, short; it becomes part of the URL).
-2. Rewrite both pages for the new app. Don't keep Munch's text by default: the privacy policy must
+2. Rewrite the pages for the new app. Don't keep Munch's text by default: the privacy policy must
    describe what **that** app actually collects, stores and sends (check its code, its Play data
    safety answers and its App Store privacy answers), and the terms must describe what it does.
 3. Set the effective date on both pages.
